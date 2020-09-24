@@ -16,7 +16,7 @@ ReactDOM.render(
   <Router history={history}>
     <Switch>
       <Route path={"./"} exact>
-        <Redirect to={"./page"} />
+        <Redirect to={"./form"} />
       </Route>
       <Route path={"./page"}>
         <PageEditor />
